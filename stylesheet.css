@@ -71,6 +71,14 @@ h1 {
   color: #BA6B65;
 }
 
+h2 {
+  font-family: Montserrat, sans-serif; 
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 50px;
+  margin: 70px;
+}
+
 
 /* Hero Section styling*/
 .hero-section {
