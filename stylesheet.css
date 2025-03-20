@@ -1,0 +1,133 @@
+body, ul {
+  margin: 0 70px;
+  padding: 0;
+}
+  
+/* Overall body style */
+body {
+  font-family: Montserrat, sans-serif;
+}
+  
+/* Header and navigation styling */
+header {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.nav-tabs {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+  
+.nav-tabs li {
+  margin: 0 50px;
+}
+  
+.nav-tabs a {
+  color: #5C5048;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+  
+.nav-tabs a:hover {
+  color: #ddd;
+}
+ 
+.logo {
+  font-family: 'Dancing Script', cursive;    
+  font-size: 45px;
+  padding: 15px;
+  color: #5C5048;
+}
+
+/* Contact Info styling */
+.contact-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact-info a {
+  color: #5C5048;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.contact-info a:hover {
+  color: #ddd;
+}
+
+
+/* Hero Section styling*/
+.hero-section {
+  text-align: center;
+  background-color: #ffffff;
+
+}
+
+.hero-section h1 {
+  font-family: 'Playfair Display', serif;  
+  font-size: 28px;
+  color: #BA6B65;
+}
+
+.bio {
+  font-family: 'Playfair Display', serif;  
+  color: #A59A95;
+  font-size: 22px;
+  margin: 0 330px;
+  padding-bottom: 50px;
+}
+
+.image-container {
+  width: 100%; 
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+/* Image styling */
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+}
+
+
+/* Skills Section Styling */
+.skills-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #5C5048;
+  margin: 70px;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  background-color: #FAE8E2; 
+  padding: 20px 0;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  left: 50%;
+  position: relative;
+  width: 100vw;
+}
+
+.skill {
+    background-color: #ffffff; 
+    color: #5C5048;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    border-radius: 30px;
+    text-align: center;
+    flex: 1;
+    margin: 70px;
+  
+}
+
+
+  
