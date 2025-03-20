@@ -5,7 +5,8 @@ body, ul {
   
 /* Overall body style */
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Playfair Display', serif; 
+  color: #5C5048;
 }
   
 /* Header and navigation styling */
@@ -15,6 +16,7 @@ header {
 }
 
 .nav-tabs {
+  font-family: Montserrat, sans-serif;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -157,12 +159,11 @@ h1 {
 }
 
 .project-card {
+  width: 300px;
   background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   overflow: hidden;
-  width: 300px;
 }
 
 .project-image {
@@ -206,7 +207,27 @@ h1 {
 }
 
 /* Art Board styling */
-.gallery {
-  width: auto;
+.artboard-section {
+  text-align: center;
+  padding: 50px 0;
 }
-  
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 300px; 
+  height: auto;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
