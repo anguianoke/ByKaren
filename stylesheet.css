@@ -646,6 +646,28 @@ header {
   color: #83a6d8;
 }
 
+/* User Interview Section */
+.user-interviews {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.user-interviews h2 {
+  margin-bottom: 15px;
+}
+
+.interview-description {
+  line-height: 1.6;
+  text-align: left;
+}
+
+.interview-list {
+  line-height: 1.6;
+  text-align: left;
+}
+
 /* Skillset and Tools Layout */
 .skillset-tools {
   display: flex;
@@ -722,22 +744,6 @@ header {
   list-style-type: disc;
   padding-left: 20px;
   line-height: 1.6;
-}
-
-.user-interviews {
-  max-width: 800px;
-  margin: 50px auto;
-  text-align: center;
-  padding: 20px;
-}
-
-.user-interviews h2 {
-  margin-bottom: 15px;
-}
-
-.interview-description {
-  line-height: 1.6;
-  text-align: left;
 }
 
 /* Affinity Diagram Section */
