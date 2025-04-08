@@ -867,8 +867,8 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   text-decoration: none;
-  color: white;
-  background-color: #5C5048; /* Adjust color if needed */
+  color: #5C5048;
+  background-color: white; /* Adjust color if needed */
   padding: 10px 24px;
   border: 1px solid #5C5048;
   border-radius: 10px;
@@ -876,8 +876,8 @@ header {
 }
 
 .view-prototype:hover {
-  background-color: #ffffff; /* Darker shade on hover */
-  color: #5C5048;
+  background-color: #5C5048; /* Darker shade on hover */
+  color: white;
   transform: scale(1.1);
 }
 
