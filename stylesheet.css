@@ -98,7 +98,7 @@ header {
   display: none;
   cursor: pointer;
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
   background: none;
   border: none;
 }
