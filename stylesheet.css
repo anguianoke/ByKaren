@@ -94,46 +94,59 @@ header {
 }
 
 /* Hamburger Menu Styles */
-.hamburger-menu {
+/* Hide nav-header (hamburger + mobile logo) on desktop */
+.nav-header {
   display: none;
-  cursor: pointer;
-  flex-direction: column;
-  gap: 5px;
-  background: none;
-  border: none;
 }
 
-/* Hamburger Bars */
-.hamburger-menu .bar {
-  width: 25px;
-  height: 3px;
-  background-color: #5C5048;
-  border-radius: 5px;
+/* Show nav-tabs by default (desktop view) */
+.nav-tabs {
+  display: flex;
 }
 
-/* Media Query for Mobile */
+/* Show mobile nav-header and hide desktop tabs on small screens */
 @media (max-width: 768px) {
-  .nav-tabs {
-    display: none; /* Hide menu items on small screens */
-    flex-direction: column;
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: #fff;
     width: 100%;
-    padding: 20px 0;
-  }
-
-  .nav-tabs li {
-    margin: 15px 0;
+    padding: 10px 20px;
   }
 
   .hamburger-menu {
-    display: flex; /* Display hamburger icon on small screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
 
-  /* Show menu when 'active' class is added */
+  .hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #5C5048;
+    border-radius: 2px;
+  }
+
+  .logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: #5C5048;
+    margin: 0;
+  }
+
+  .nav-tabs {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff; /* optional styling */
+    padding: 10px 0;
+  }
+
   .nav-tabs.active {
     display: flex;
   }
