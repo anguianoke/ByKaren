@@ -93,7 +93,6 @@ header {
   margin-top: 30px;
 }
 
-/* Hamburger Menu Styles */
 /* Hide nav-header (hamburger + mobile logo) on desktop */
 .nav-header {
   display: none;
