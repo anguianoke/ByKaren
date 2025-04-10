@@ -575,6 +575,16 @@ header {
   margin-bottom: 10px;
 }
 
+.case-study-note {
+  font-size: 18px;
+  text-align: center;
+  background-color: #FAE8E2;
+  max-width: 800px;  
+  margin: 40px auto; 
+  border-radius: 10px;
+  padding: 25px;
+}
+
 /* Shared Pain Points */
 .shared-pain-points {
   max-width: 950px;
@@ -601,15 +611,6 @@ header {
   margin-bottom: 10px;
 }
 
-.case-study-note {
-  font-size: 18px;
-  text-align: center;
-  background-color: #FAE8E2;
-  max-width: 950px;  
-  margin: 40px auto; 
-  border-radius: 10px;
-  padding: 25px;
-}
 
 /* Framed Container for Problem-Solution-Goal */
 .framed-container {
